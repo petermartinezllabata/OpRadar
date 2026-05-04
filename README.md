@@ -1,3 +1,5 @@
+![OpRadar](assets/banner.svg)
+
 # OpRadar
 ### AI-powered opportunity assessor for consultants and job seekers
 
