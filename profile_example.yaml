@@ -1,0 +1,126 @@
+# OpRadar — Example Profile (Alex Rivera)
+# This is an anonymized example showing how to fill in profile.yaml.
+# Copy profile.yaml (not this file) and replace the values with your own.
+
+name: "Alex Rivera"
+
+base_city: "Quito, Ecuador"
+
+languages:
+  - "Spanish (native)"
+  - "English (fluent)"
+  - "Portuguese (working)"
+
+work_authorization:
+  - "Ecuador"
+  - "European Union"
+
+daily_rate_min: 450
+daily_rate_max: 650
+
+availability: "Short consultancies, 10-40 days spread across the year"
+
+remote_preference: "Remote-first. Open to in-person in Ecuador, Panama, Costa Rica, Colombia, Peru, Guatemala, El Salvador"
+
+priority_countries:
+  - "Ecuador"
+  - "Panama"
+  - "Costa Rica"
+  - "Colombia"
+  - "Peru"
+  - "Guatemala"
+  - "El Salvador"
+
+current_role: "Senior MEL Advisor at a global drone innovation network (full-time, 2025-present)"
+
+other_roles:
+  - "Survey Design Consultant at a governance research institute (part-time, ~15 days/year)"
+
+thematic_areas:
+  - "Forced displacement"
+  - "Mixed migration"
+  - "Refugee protection"
+  - "MEL systems"
+  - "Child protection"
+  - "Gender equality"
+  - "Climate resilience"
+  - "Localization"
+  - "AI for development"
+
+technical_tools:
+  - "KoboToolbox"
+  - "SurveyCTO"
+  - "ODK"
+  - "XLSForms"
+  - "Power BI"
+  - "ActivityInfo"
+  - "R"
+  - "SQL"
+  - "QGIS"
+  - "ArcGIS"
+  - "DEEP.io"
+  - "Atlas.ti"
+  - "MaxQDA"
+
+core_competencies:
+  - "MEL systems design"
+  - "Information Management"
+  - "Survey design"
+  - "Mixed-methods research"
+  - "Humanitarian analysis"
+  - "Facilitation and capacity building"
+  - "Data visualization"
+  - "Reproducible analysis workflows"
+
+experience_summary: |
+  Senior MEL and Information Management consultant with 10+ years of experience
+  in humanitarian and development contexts. Led national IM and evidence systems
+  for displacement, asylum, and protection responses at UNHCR across two countries,
+  designing 6 interoperable end-to-end data systems and securing a USD 120k
+  innovation grant for a composite severity index adopted across 4 countries.
+  Currently leading global MEL system design across a 40+ country network,
+  including Theory of Change revision, indicator frameworks, and capacity
+  strengthening for locally-led organizations. Strong facilitation background
+  rooted in 5+ years as a social educator using adult learning methodologies
+  including popular education, Theatre of the Oppressed, and design thinking.
+
+institutional_background: |
+  UN Refugee Agency, Country Office A (2021-2025): Led national IM and evidence
+  systems for displacement and protection. Designed 6 interoperable data systems.
+  Secured USD 120k innovation grant. Grew IM team from 2 to 7. Led HNO/HRP/PiN
+  process. Coordinated largest Mixed Movements Monitoring operation in the region.
+
+  UN Refugee Agency, Country Office B (2018-2021): Designed Protection data
+  strategy. Built 4 interoperable partner and government systems. Coordinated
+  82 FGDs nationwide. Supervised 70+ enumerators. Trained 135 staff and partners.
+  Launched national operational data portal.
+
+  Global Drone Innovation Network (2025-present): Senior MEL Advisor. ActivityInfo
+  MEL system design. Power BI dashboards. Revised Theory of Change and indicator
+  framework. Global self-evaluation across 40+ countries.
+
+  Governance Research Institute (2026-present): Survey design consultant.
+  5 XLSForm instruments. R reproducible pipelines. Variable dictionaries.
+
+strategic_priorities: |
+  Build formal evaluation credits — currently evaluation-adjacent but no lead
+  evaluator role on record. Prioritize IM, data, MEL, and applied research
+  consultancies. Avoid commitments conflicting with current full-time role.
+
+exclude: |
+  Junior roles. Unpaid or volunteer work. Firm-only procurement tenders.
+  French or Arabic as primary working language. Extended relocation outside
+  priority countries. Pure programme management with no MEL or data content.
+
+degree: "MA in Human Rights and Democratization, BA in Social Education"
+
+certifications:
+  - "MEAL DPro (PM4NGOs, 2024)"
+  - "Associate Data Scientist in R (DataCamp, 2024)"
+  - "UNHCR Innovation Fellowship (2021)"
+
+rosters:
+  - "EUAA senior IM/PM expert roster"
+  - "MSB/IMSMA roster"
+  - "Bodhi Global Analysis"
+  - "World Vision"

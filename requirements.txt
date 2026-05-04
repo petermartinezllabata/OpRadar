@@ -1,0 +1,8 @@
+anthropic
+notion-client<3
+python-dotenv
+requests
+beautifulsoup4
+pypdf
+playwright
+pyyaml
