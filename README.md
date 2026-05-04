@@ -65,6 +65,8 @@ playwright install chromium
                                    This 32-character string is your NOTION_DATABASE_ID
    ```
 
+**Important:** After creating the database, you must connect your integration to it. Open the database, click the **•••** menu in the top right, click **Connections**, and select your integration by name. Without this step, setup.py will fail with a 404 error.
+
 ### 4. Configure API keys
 
 ```bash

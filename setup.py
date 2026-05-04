@@ -11,6 +11,7 @@ import sys
 
 from dotenv import load_dotenv
 from notion_client import Client
+from notion_client.errors import APIResponseError
 
 
 REQUIRED_PROPERTIES = {
@@ -80,7 +81,19 @@ def main() -> None:
     notion = Client(auth=notion_token)
 
     print(f"Connecting to Notion database {database_id} ...")
-    db = notion.databases.retrieve(database_id=database_id)
+    try:
+        db = notion.databases.retrieve(database_id=database_id)
+    except APIResponseError as e:
+        print(
+            "\nOpRadar Setup Error: Could not connect to your Notion database.\n\n"
+            "Please check:\n"
+            "  1. Your NOTION_DATABASE_ID in .env is correct "
+            "(32-character string from the database URL)\n"
+            "  2. You have connected your integration to the database:\n"
+            "     Open the database → ••• menu → Connections → select your integration\n"
+            "  3. Your NOTION_TOKEN in .env is valid and starts with 'secret_'\n"
+        )
+        sys.exit(1)
     existing = db.get("properties", {})
 
     to_create = {}
